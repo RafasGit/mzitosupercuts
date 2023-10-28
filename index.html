@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Barber - Barbers & Hair Cutting</title>
+  <meta name="title" content="Barber - Barbers & Hair Cutting">
+  <meta name="description" content="This is a barber html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  
+  
+  
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  
+  <!-- Leaflet Mapping -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="crossorigin=""/>
+
+  
+
+</head>
+    <body id="top">
+         <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Call Us :</p>
+
+            <a href="tel:01234567895" class="item-link">012 (345) 67 895</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Opening Hour :</p>
+
+            <p class="item-text">Sunday - Friday, 08 am - 09 pm</p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+    <div class="header-bottom" data-header>
+        <div class="container">
+  
+          <a href="#top" class="logo">
+            Edu Mzito's
+            <span class="span">Supercuts</span>
+          </a>
+  
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+  
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#services" class="navbar-link" data-nav-link>Services</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#pricing" class="navbar-link" data-nav-link>Pricing</a>
+              </li>
+
+  
+              <li class="navbar-item">
+                <a href="#appointment" class="navbar-link" data-nav-link>Appointment</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+              </li>
+  
+            </ul>
+          </nav>
+  
+          <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+  
+          <a href="#services" class="btn has-before">
+            <span class="span">Explore Services</span>
+  
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+  
+        </div>
+      </div>
+      
+  
+    </header><main>
+      <article>
+  
+        <!-- 
+          - #HERO
+        -->
+  
+        <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+          style="background-image: url('./assets/images/mzito.jpg' )" >
+          <div class="container">
+  
+            <h1 class="h1 hero-title">Edu Mzito's Supercuts</h1>
+  
+            <p class="hero-text">
+            Enjoy one of a kind excellent barber experiences at Edu Mzito's 
+            </p>
+  
+            <a href="#services" class="btn has-before">
+              <span class="span">Explore Our Services</span>
+  
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+  
+          </div>
+        </section>
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Service We Provide</h2>
+
+          <p class="section-text text-center">
+         At Edu Mzito's we offer a variety of services ranging from hair cuts to facial skincare routines
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div id="main" class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-barber"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#face" class="card-title">Hair Cutting Style</a>
+                </h3>
+
+                <p class="card-text">
+                 Proper stylish cuts 
+                </p>
+
+                <a href="#face" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+       
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-spa"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#face" class="card-title">Facial services</a>
+                </h3>
+
+                <p class="card-text">
+                 Relaxing, rejuvenating skincare routines
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#face" class="card-title">Locs & Extensions</a>
+                </h3>
+
+                <p class="card-text">
+                  Locs, braiding and extension care
+                </p>
+
+                <a href="#face" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+       
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-hair-dye"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#face" class="card-title">Multi Hair Colors</a>
+                </h3>
+
+                <p class="card-text">
+                  Dye application in various colors
+                </p>
+
+                <a href="#face" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+      
+      </section>
+
+         <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+        style="background-image: url('./assets/images/pricing-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Awesome Pricing Plan</h2>
+
+          <p class="section-text text-center">
+            Experience the various products we offer 
+          </p>
+
+
+
+
+        <div class="pricing-tab-container">
+            <ul class="tab-filter">
+
+              <!-- <li>
+                <button  class="filter-btn active" data-filter-btn="all">
+                  <div class="btn-icon">
+                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">All Pricing</p>
+                </button>
+              </li> -->
+
+              <li id="face">
+                <button class="filter-btn" data-filter-btn="beauty-spa">
+                  <div class="btn-icon">
+                    <i class="flaticon-spa" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Facials</p>
+                </button>
+              </li>
+
+           
+
+
+              <li>
+                <button class="filter-btn" data-filter-btn="dye care">
+                  <div class="btn-icon">
+                    <i class="flaticon-hair-dye" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Hair Color & Dye Services</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="shaving">
+                  <div class="btn-icon">
+                    <i class="flaticon-barber" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Shaving</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="Locs">
+                  <div class="btn-icon">
+                    <i class="flaticon-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Locs & Extensions</p>
+                </button>
+              </li>
+
+            </ul>
+
+
+
+
+            <ul class="grid-list">
+
+          
+
+            
+              <!-- <style> .nodisplay { display: none; } </style> -->
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/trimcuts.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                  
+                      <h3 class="h3 card-title" class="dropbtn">Hair Cutting & Fitting</h3>
+                      <p class="card-text">Explore our various haircut selections</p>
+                    
+                  </div>
+
+               
+                </div>
+              </li>
+             <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-rdne-stock-project-7697394 1 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Kids Cut</h3>
+
+                    <p class="card-text">Enjoy discounted services for kids</p>
+                  </div>
+
+                  <data class="card-price" value="200">Ksh. 200</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="dye care">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2007 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Subaru Dye</h3>
+
+                    <p class="card-text">Subaru dye available in various colours</p>
+                  </div>
+
+                  <data class="card-price" value="150">ksh. 500</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="dye care">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2006 (2).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">White dye</h3>
+
+                    <p class="card-text">White dye kit</p>
+                  </div>
+
+                  <data class="card-price" value="1500">ksh. 1500</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="dye care">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/HTB1c6hxelGE3KVjSZFhq6AkaFXa7.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Kupa Coloring Kit</h3>
+
+                    <p class="card-text">Natural high quality dye kit</p>
+                  </div>
+
+                  <data class="card-price" value="1500-2500">ksh.1500 - 2500</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="dye care">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2005 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Red Hair Dye</h3>
+
+                    <p class="card-text">Quality dye kit</p>
+                  </div>
+
+                  <data class="card-price" value="1500">ksh.1500</data>
+
+                </div>
+              </li>
+
+
+              <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-rdne-stock-project-7697476 1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Beard Trim</h3>
+
+                    <p class="card-text">Beard trimming and maintenance</p>
+                  </div>
+
+                  <data class="card-price" value="150">ksh. 150</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/barber-5711575_640 (1) 1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Shaving, with dye or scrub</h3>
+
+                    <p class="card-text">Hair cut with dye or facial scrub </p>
+                  </div>
+
+                  <data class="card-price" value="150">ksh. 500</data>
+
+                </div>
+              </li>
+
+              
+<!-- 
+              <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Shaving and black dye / scrub</h3>
+
+                    <p class="card-text">Hair cut accompanied by either a facial scrub or black dye application</p>
+                  </div>
+
+                  <data class="card-price" value="500">ksh.500</data>
+
+                </div>
+              </li> -->
+              <!-- <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 900px; --height: 900;">
+                    <img src="./assets/images/IMG_2002 1 (2).jpg" width="1200px" height="120" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Shaving, black dye & scrub</h3>
+
+                    <p class="card-text">Hair cut accompanied by both a facial scrub and black dye application</p>
+                  </div>
+
+                  <data class="card-price" value="500">ksh.1000</data>
+
+                </div>
+              </li> -->
+              <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2002 1 (2).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Shaving, black dye & scrub</h3>
+
+                    <p class="card-text">Hair cut with a facial scrub and dye</p>
+                  </div>
+
+                  <data class="card-price" value="1000">ksh.1000</data>
+
+                </div>
+              </li>
+
+             
+
+              <li class="nodisplay" data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/slide1 (3).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Basic cut</h3>
+
+                    <p class="card-text">Regular hair cut</p>
+                  </div>
+
+                  <data class="card-price" value="300">ksh.300</data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/footer-blog-2 (1).jpg" width="90" height="90" alt="Hair Color & Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Dying services</h3>
+
+                    <p class="card-text">Various hair coloring options available</p>
+                  </div>
+
+                  <!-- <data class="card-price" value="35">$35</data> -->
+
+                </div>
+              </li>
+            
+          
+            
+
+          
+
+              <li data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 80; --height: 90;">
+                    <img src="./assets/images/man-doing-selfcare-routine4.jpg" width="80" height="80" alt="Beauty & Spa"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Facial Services</h3>
+
+                    <p class="card-text">Rejuvenating and cleansing facial care </p>
+                  </div>
+
+                
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-august-de-richelieu-7433337 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Face Scrubbing</h3>
+
+                    <p class="card-text">Exfoliating face cleansing</p>
+                  </div>
+                       
+                  <data class="card-price" value="500">ksh. 500</data>
+
+                </div>
+              </li>
+
+              <li data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-alex-green-5699757.jpg" width="90" height="90" alt="Facial & Face Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Locs & Extensions</h3>
+
+                    <p class="card-text">Various locking and hair extension services on offer</p>
+                  </div>
+
+                 
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-cottonbro-studio-6616683 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Full extension retouch</h3>
+
+                    <p class="card-text"> Complete head retouch</p>
+                  </div>
+
+                  <data class="card-price" value="1500">ksh.1500</data>
+
+                </div>
+              </li>
+       
+
+              <li class="nodisplay" data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2004 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Half extension retouch</h3>
+
+                    <p class="card-text">Extension retouch with faded trim</p>
+                  </div>
+
+                  <data class="card-price" value="1000">ksh. 1000</data>
+
+                </div>
+              </li>
+       
+              <li class="nodisplay" data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pexels-jermaine-ulinwa-4129015 1 (1).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Full dreads retouch</h3>
+
+                    <p class="card-text">Full head locs retouch</p>
+                  </div>
+
+                  <data class="card-price" value="800=1500">ksh. 800-1500</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/IMG_2003 (2).jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Half dreads retouch</h3>
+
+                    <p class="card-text">Extension retouch with fade</p>
+                  </div>
+
+                  <data class="card-price" value="600">ksh. 600</data>
+
+                </div>
+              </li>
+
+              <li class="nodisplay" data-filter="Locs">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/surprised-business-afro-american-man-standing-looking-pink 1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Baby locs with haircut </h3>
+
+                    <p class="card-text">Full head locs retouch</p>
+                  </div>
+
+                  <data class="card-price" value="800=1500">ksh. 500</data>
+
+                </div>
+              </li>
+       
+            </ul>
+
+          </div>
+
+        </div>
+      </section> <!-- 
+  
+
+
+      
+        - #APPOINTMENT
+      -->
+
+      <section class="section appoin" id="appointment" aria-label="appointment">
+        <div class="container">
+
+          <div class="appoin-card">
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/slide1 (1).jpg" width="250" height="774" loading="lazy"  alt=""
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <h2 class="h2 section-title">Make Appointment</h2>
+
+              <p class="section-text">
+                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua
+                suspendisse
+              </p>
+
+              <section action="" class="appoin-form">
+
+         
+                <div class="input-wrapper">
+                  <!-- <input type="text" name="phone" placeholder="Phone Number" required class="input-field"> -->
+
+                  <!-- <select name="category" class="input-field">
+
+                    <option value="Select category">Select category</option>
+                    <option value="Beauty & spa">Beauty & spa</option>
+                    <option value="Body massage">Body massage</option>
+                    <option value="Shaving & Facial">Shaving & Facial</option>
+                    <option value="Hair Color">Hair Color</option>
+
+                  </select> -->
+                </div>
+<!-- 
+                <input type="date" name="date" required class="input-field date">
+
+                <textarea name="message" placeholder="Write Message" required class="input-field"></textarea> -->
+
+                <div  class="form-btn">
+                  <!-- <span class="span">Appointment Now</span> -->
+                  <div class="embed">
+                     <!-- <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script><a style="color: #000;float:none; " id="Setmore_button_iframe"  href="https://booking.setmore.com/scheduleappointment/1742a6ff-1be4-4a60-9159-cccc2d371681"><img  border="none"  src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.svg" alt="Book an appointment with JoshRafa using Setmore"/></a> 
+                    <span>my name is jeff</span>
+                    <!-- <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script><a style="color: #000;float:none; " id="Setmore_button_iframe"  href="https://booking.setmore.com/scheduleappointment/1742a6ff-1be4-4a60-9159-cccc2d371681"><img  border="none"  src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.svg" alt="Book an appointment with JoshRafa using Setmore"/></a> -->
+                    <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script><a style="color: #000;float:none; " id="Setmore_button_iframe"  href="https://booking.setmore.com/scheduleappointment/1742a6ff-1be4-4a60-9159-cccc2d371681"><img  border="none"  src="https://storage.googleapis.com/full-assets/setmore/images/1.0/Settings/book-now-blue.svg" alt="Book an appointment with JoshRafa using Setmore"/></a>
+                  </div>
+                  <!-- <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> -->
+                  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-ef803ce6-e775-4cca-a8b1-7841a525b160" data-elfsight-app-lazy></div>
+                </div>
+
+              </section>
+
+            </div>
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/slide1 (2).jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <!-- <div class="footer-brand"> -->
+
+      
+    
+  
+    <div class="container">
+
+    
+
+       <!-- <div class="footer-brand"> -->
+
+          <h3 href="#contact" class="logo" id="contact">
+            CONTACT US
+           
+          </h3>
+
+        </div>  
+
+     
+       
+        
+
+
+
+        </div>
+
+      </div>
+
+    
+
+   
+      <div class="row">
+        <div class="column" >
+          <div id="map" style="width: 85%; height: 409px; z-index: 1;  position: relative; margin-left: 32px; overflow-x: hidden;"></div>
+  
+        </div>
+        <div class="column2" >
+          <!-- <h2>Column 2</h2>
+          <p>Some text..</p> -->
+  
+          <ul class="footer-list">
+  
+  
+            <li class="footer-list-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+  
+              <address class="contact-link">
+              Juja
+              </address>
+            </li>
+  
+            <li class="footer-list-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+  
+              <a href="tel:+0123456789" class="contact-link">+012 (345) 67 89</a>
+            </li>
+  
+            <li class="footer-list-item">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+  
+              <span class="contact-link">Sun - Friday, 08 am - 09 pm</span>
+            </li>
+  
+         
+  
+          </ul>
+        
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="#" class="copyright-link">JoshRafasites</a>. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+  
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+  crossorigin=""></script>
+  <script>
+    var map = L.map('map').setView([50.84673, 4.35247], 12);
+    L.tileLayer('https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png', {
+     attribution:
+         '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' +
+         ', Tiles courtesy of <a href="https://geo6.be/">GEO-6</a>',
+     maxZoom: 18
+ }).addTo(map);
+ var marker = L.marker([50.84673, 4.35247]).addTo(map);
+ var popup = marker.bindPopup('<h2 class=pop >Stop by for a great haircut!</h2>')
+ popup.openPopup();
+  </script>
+</body>
+
+</html>
