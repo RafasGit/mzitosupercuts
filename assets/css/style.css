@@ -801,7 +801,7 @@ textarea.input-field {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 1px solid var(--white);
+ 
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 5px;
@@ -809,6 +809,7 @@ textarea.input-field {
   transition: var(--transition-1);
   margin-left: 36.5%;
 }
+
 @media screen and (max-width: 1200px) {
   .form-btn{
  border: 0px;
@@ -823,17 +824,15 @@ textarea.input-field {
 
 .column {
   float: left;
-  width: 50%;
-  /* border: solid 10px red ; */
- 
-  height: 100%; /* Should be removed. Only for demonstration */
-  margin-left: 10%;
+  width: 55%;
+  
+  height: 500px; /* Should be removed. Only for demonstration */
+  margin-left: 8%;
 }
 
 .column2 {
-  float: left;
-  width: 20%;
-  padding: 10px;
+  float:right;
+	width: 35%;
   height: 550px; /* Should be removed. Only for demonstration */
   /* border: solid 10px blue; */
 }
@@ -859,6 +858,10 @@ textarea.input-field {
   .column2 {
     padding-left: 80px;
     width: 100%;
+  }
+  iframe {
+    
+    width: 70%;
   }
 }
 /*-----------------------------------*\
@@ -895,6 +898,17 @@ textarea.input-field {
    height: 100%;
      width: 100%;
  }
+
+
+ iframe {
+  position: relative;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 86%;
+}
+
+ 
  
  /* 
  Support for browsers that DON'T support Flexbox uses 100% height on the map-container defined above.
