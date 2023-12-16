@@ -852,10 +852,12 @@
                   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <div class="elfsight-app-ef803ce6-e775-4cca-a8b1-7841a525b160" data-elfsight-app-lazy></div>
                 </div>
-
+                    
               </section>
 
             </div>
+               <!-- We will put our React component inside this div. -->
+    <div id="like_button_container"></div>
 
             <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
               <img src="./assets/images/slide1 (2).jpg" width="250" height="774" loading="lazy" alt=""
@@ -960,6 +962,13 @@
   </a>
 
 
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    production.min.js
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
 
 
 
