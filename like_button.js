@@ -9,10 +9,7 @@ class LikeButton extends React.Component {
   }
 
   render() {
-    if (this.state.liked) {
-      return 'You liked this.';
-    }
-
+   
     return e(
         <form onSubmit={handleSubmit} style={styles.form}>
         <h1>Mpesa Payment Form</h1>
