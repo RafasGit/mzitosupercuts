@@ -1,3 +1,3 @@
 
-# [mzitosupercuts](https://mzitosupercuts.site/)
+# [booknpay](https://mzitosupercuts.site/)
 Barbershop website with appointment scheduling and online payments integrated 
